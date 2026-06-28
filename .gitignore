@@ -1,0 +1,74 @@
+# ============================
+# Dependencies
+# ============================
+node_modules/
+.pnp/
+.pnp.js
+
+# ============================
+# Build & Output
+# ============================
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ============================
+# Project Exports (خروجی‌های پروژه)
+# ============================
+exports/
+*.xlsx
+*.csv
+
+# اگه می‌خوای ساختار پوشه exports حفظ بشه ولی محتواش نه:
+# !exports/.gitkeep
+
+# ============================
+# Environment & Secrets
+# ============================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================
+# Editor & IDE
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Cache
+# ============================
+.cache/
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# ============================
+# Misc
+# ============================
+coverage/
+.tmp/
+temp/
